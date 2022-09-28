@@ -573,7 +573,14 @@ footer {
                         width:85%;
                         border:none;
                         border-radius: 40px;
-                       
+                        outline: none;
+                        &:focus{
+                            outline: none;
+                            border: none;
+                            outline: transparent;
+                            box-shadow: none;
+                        }
+                        
                     }
                     
                 }

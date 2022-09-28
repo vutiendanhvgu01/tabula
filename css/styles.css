@@ -504,6 +504,13 @@ footer .container .footer-item4 .sub a:hover::before {
   width: 85%;
   border: none;
   border-radius: 40px;
+  outline: none;
+}
+.find-course .information-right form .container .row2 select:focus {
+  outline: none;
+  border: none;
+  outline: transparent;
+  box-shadow: none;
 }
 .find-course .information-right form .container .row3 {
   margin-top: 20px;
